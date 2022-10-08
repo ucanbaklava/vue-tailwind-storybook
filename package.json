@@ -1,0 +1,32 @@
+{
+  "name": "vue-storybook",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "postcss": "^8.4.17",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-vite": "^0.2.4",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.12",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.12",
+    "babel-loader": "^8.2.5",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9",
+    "vue-loader": "^16.8.3"
+  }
+}
